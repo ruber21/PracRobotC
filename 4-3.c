@@ -12,7 +12,7 @@ task main()
 	nMotorEncoder[motorC] = 0;
 	nMotorEncoder[motorB] = 0;
 
-	while(SensorValue(touchSensor))
+	while(SensorValue(touchSensor) == 0)
 	{
 		motor[motorB] = 10;
 		motor[motorC] = 10;
