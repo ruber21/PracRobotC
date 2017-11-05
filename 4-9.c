@@ -68,6 +68,7 @@ task main()
     e = e * ge;
     r = r * gr;
     s = fuzzy(e,r);
+    s = s * gu;
     sFinal = (int)abs(s);
     if(sFinal > 50) sFinal = 50;
 
