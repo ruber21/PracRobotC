@@ -37,7 +37,7 @@
 #define WHEELDIST 115  // distance between the wheels
 #define WHEELSIZE 56   // diameter of the wheels
 
-#define MOTORSPEED 4   // speed at which motors should turn
+#define MOTORSPEED 3   // speed at which motors should turn
 
 // Lets you know when 20 seconds is over, can help with setting up
 // the initial timing and motor speed.

@@ -1,4 +1,4 @@
-#pragma config(Sensor, S1, touchSensor, sensorTouch)
+#pragma config(Sensor, S3, touchSensor, sensorTouch)
 
 float B;
 float C;
@@ -18,11 +18,11 @@ task main()
 		motor[motorC] = 10;
 		B = nMotorEncoder [motorC];
 		C = nMotorEncoder [motorB];
+
+
+		nxtDisplayBigStringAt(12,50,"%3.1f", B);
+		nxtDisplayBigStringAt(12,20,"%3.1f", C);
 	}
-
-	nxtDisplayBigStringAt(12,50,"%3.1f", B);
-	nxtDisplayBigStringAt(12,20,"%3.1f", C);
-
 	motor[motorC] = 0;
 	motor[motorB] = 0;
 

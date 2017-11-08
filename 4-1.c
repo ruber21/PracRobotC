@@ -2,9 +2,9 @@
 task main()
 {
 
-motor[motorB] = 50;
-motor[motorC] = -50;
+motor[motorB] = 10;
+motor[motorC] = -10;
 
-wait1Msec(1000);
+wait1Msec(10000);
 
 }
